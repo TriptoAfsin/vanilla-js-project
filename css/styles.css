@@ -1,0 +1,71 @@
+:root{
+    /*Colors*/
+    --primaryColor: rgb(31, 83, 228);
+    --secondaryColor: rgb(43, 202, 78);
+    --warningColor: rgb(245, 213, 30);
+    --errorColor: rgb(204, 31, 31);
+
+    --darkBgColor: #282c34;
+    --whiteBgColor: rgb(253, 253, 253);
+    --darkCard: #282c34b6;
+    --grey: rgb(30, 30, 30);
+    --lightGrey: rgb(45, 45, 45);
+    --lightCard: #ffffff;
+
+    --ash: #e4e8eb;
+    --paper: #f4ede4;
+
+    --red: rgb(204, 31, 31);
+    --lightRed: #fa6d51;
+    --darkRed: rgb(124, 23, 23);
+    --lightRed: rgb(248, 72, 72);
+    --green: #23a455;
+    --darkGreen: rgb(28, 114, 47);
+    --lightGreen: rgb(61, 235, 98);
+    --teal: #36bc9b;
+    --blue: rgb(35, 89, 240);
+    --lightBlue:  rgb(76, 123, 250);
+    --darkBlue: rgb(35, 62, 136);
+    --skyBlue: #4fc0e8;
+    --yellow: rgb(245, 213, 30);
+    --orange: orange;
+    --pink: #e9146d;
+    --purple: rgb(141, 34, 141);
+    --lightPurple:rgb(88, 63, 201);
+    --black: black;
+    --white: #ffff;
+
+    --blueGradient: linear-gradient(45deg, var(--lightBlue), var(--blue));
+    --greenGradient: linear-gradient(45deg,  var(--lightGreen),var(--green));
+    --redGradient: linear-gradient(45deg,  var(--lightRed),var(--red));
+    --purpleGradient: linear-gradient(45deg,  var(--lightPurple),var(--purple));
+    --yellowGradient: linear-gradient(45deg,  var(--yellow),var(--orange));
+    --greyGradient: linear-gradient(45deg,  var(--lightGrey),var(--grey));
+
+    --orangeGradient: linear-gradient(45deg,  var(--lightRed),var(--orange));
+    --aquaGradient: linear-gradient(45deg,  #0cd8ba,#047fd5);
+    --ashGradient: linear-gradient(45deg,  #d4d5d7,#737c86);
+
+    /*Font Size*/
+
+
+    /*Shadow*/
+    --shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.527);
+    --blueShadow: 0 5px 15px 0px rgba(69, 113, 235, 0.527);
+    --greenShadow: 0 5px 15px 0px rgba(110, 252, 181, 0.527);
+    --redShadow: 0 5px 15px 0px rgba(253, 110, 122, 0.527); 
+}
+
+
+/*GLobal CSS Stuffs*/
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    overflow-x: auto !important;
+}
+
